@@ -1,0 +1,13 @@
+package starome.backend.starome;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StaromeApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StaromeApplication.class, args);
+	}
+
+}
