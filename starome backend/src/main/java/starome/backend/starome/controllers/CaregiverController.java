@@ -15,8 +15,8 @@ import jakarta.validation.Valid;
 import starome.backend.starome.entities.Caregiver;
 import starome.backend.starome.services.CaregiverService;
 
+@RequestMapping("/api")
 @RestController
-@RequestMapping("/api/caregiver")
 public class CaregiverController {
 
     @Autowired

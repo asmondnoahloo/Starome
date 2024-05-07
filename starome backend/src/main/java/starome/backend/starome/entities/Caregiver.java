@@ -32,5 +32,5 @@ public class Caregiver {
     @ManyToOne
     @JoinColumn(name = "service_id", nullable = false)
     @NotNull(message = "Service cannot be empty")
-    private Service service;
+    private Services service;
 }
